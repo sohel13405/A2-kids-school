@@ -18,6 +18,7 @@
 
 .bdy{
     background-color: #F7F7F7;
+    margin: 10px 15px;
 }
 
 /* header start  */
@@ -134,9 +135,9 @@ ul li a{
 /* main start  */
 .main-container{
     width: 1440px;
-    height: 880px;
     margin: 0px auto;
     background-image: url(./images/bg.png);
+    margin-top: 80px;
 }
 .h2-main{
     text-align: center;
@@ -148,33 +149,32 @@ ul li a{
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
-    
-    
-   
-    
+    margin-top: 80px;
 }
+
+
 .cards{
     
     box-shadow: 5px 5px 5px 5px  #edeaea;
     text-align: center;
-    padding: 60px 30px;
+    padding: 60px 40px;
     border-radius: 20px;
-    background-image: linear-gradient(#DEF5FF, white);
+    background-image: linear-gradient( #DEF5FF, white, white, white);
 
 }
 .cards-2{
     box-shadow: 5px 5px 5px 5px #edeaea;
     text-align: center;
-    padding: 60px 30px;
+    padding: 60px 40px;
     border-radius: 20px;
-    background-image: linear-gradient(#FFF4DC, white);
+    background-image: linear-gradient(#FFF4DC, white, white, white);
 }
 .cards-3{
     box-shadow: 5px 5px 5px 5px  #edeaea;
     text-align: center;
-    padding: 60px 30px;
+    padding: 60px 40px;
     border-radius: 20px;
-    background-image: linear-gradient(#F2E8FF, white);
+    background-image: linear-gradient(#F2E8FF, white, white, white);
 }
 
 .main-h3{
@@ -200,6 +200,11 @@ ul li a{
     font-size: 1rem;
     font-weight: bold;
     color: #8700FF;
+}
+
+.arrow{
+    text-align: center;
+   margin-top: 80px;
 }
 
 
@@ -266,6 +271,46 @@ ul li a{
     border-radius: 10px;
     margin-top: 15px;
    
+}
+
+.main-container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.h2-main{
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin: 0px 0px;
+    margin-top: 0px;
+}
+
+.cards{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    
+}
+
+.cards-2{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+.cards-3{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 0px;
 }
 
 
