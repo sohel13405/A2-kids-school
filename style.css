@@ -99,7 +99,11 @@ ul li a{
     display:none;
 }
 /* navbar end  */
-
+.marq{
+    font-size: 1.5rem;
+    font-weight:500;
+    color: #c8bebe;
+}
 /* banner start  */
 .banner{
     width: 1160px;
